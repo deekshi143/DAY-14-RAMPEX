@@ -1,0 +1,51 @@
+Operations problems
+
+Section-2: Operations
+Q-1 : Artihmetic operator
+Write a C program to perform arithmetic operations such as addition, subtraction, multiplication, 
+modulo division and division. INPUT & OUTPUT FORMAT: Input consists of two integers Output 
+consist of integers
+SAMPLE INPUT:
+5
+2
+SAMPLE OUTPUT:
+7
+3
+10
+1
+2
+Case 1
+Input (stdin)
+5
+2
+Output (stdout)
+7
+3
+10
+1
+2
+Case-2
+Input (stdin)
+9
+3
+Output (stdout)
+12
+6
+27
+0
+3
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    scanf("%d %d",&a,&b);
+    printf("%d",a+b);
+    printf("\n%d",a-b);
+    printf("\n%d",a/b);
+    printf("\n%d",a*b);
+    printf("\n%d",a%b);
+    
+
+    return 0;
+}
